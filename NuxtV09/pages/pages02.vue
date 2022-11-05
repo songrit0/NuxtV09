@@ -1,12 +1,13 @@
 <template>
-  <Tutorial/>
+    <h1>{{ demo }}</h1>
 </template>
 
 <script>
-import axios from 'axios'
-export default {
-  name: 'IndexPage',
-  data() {
+import axios from "axios"
+
+
+export default ({
+    data() {
         return {
             demo: 'Hello',
              news: [],
@@ -42,6 +43,5 @@ export default {
 
 
     },
-}
-
+})
 </script>
